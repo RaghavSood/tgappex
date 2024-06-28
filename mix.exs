@@ -28,8 +28,9 @@ defmodule TgAppEx.MixProject do
 
   defp package do
     [
-      files: ["lib", "mix.exs", "README", "LICENSE*"],
+      files: ["lib", "mix.exs", "README*", "LICENSE*"],
       maintainers: ["Raghav Sood"],
+      description: "A library for validating and parsing Telegram Web App Init Data.",
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/RaghavSood/tgappex"}
     ]
