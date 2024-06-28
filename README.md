@@ -1,6 +1,6 @@
 # TgAppEx
 
-**TODO: Add description**
+A quick and easy way to validate and parse the mini app init data, given the URI encoded payload and the bot token.
 
 ## Installation
 
@@ -10,7 +10,7 @@ by adding `tgappex` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:tgappex, "~> 0.1.0"}
+    {:tgappex, "~> 1.0.0"}
   ]
 end
 ```

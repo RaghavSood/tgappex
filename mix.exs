@@ -4,7 +4,7 @@ defmodule TgAppEx.MixProject do
   def project do
     [
       app: :tgappex,
-      version: "0.1.0",
+      version: "1.0.0",
       elixir: "~> 1.16",
       start_permanent: Mix.env() == :prod,
       deps: deps()
@@ -22,6 +22,15 @@ defmodule TgAppEx.MixProject do
   defp deps do
     [
       {:jason, "~> 1.4"}
+    ]
+  end
+
+  defp package do
+    [
+      files: ["lib", "mix.exs", "README", "LICENSE*"],
+      maintainers: ["Raghav Sood"],
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/RaghavSood/tgappex"}
     ]
   end
 end
